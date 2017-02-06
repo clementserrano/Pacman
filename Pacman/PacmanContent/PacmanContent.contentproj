@@ -29,6 +29,76 @@
     <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.AudioImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.VideoImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="wall.png">
+      <Name>wall</Name>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bean.png">
+      <Name>bean</Name>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="pacmanDroite0.png">
+      <Name>pacmanDroite0</Name>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="pacmanBas0.png">
+      <Name>pacmanBas0</Name>
+    </Compile>
+    <Compile Include="pacmanBas1.png">
+      <Name>pacmanBas1</Name>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="pacmanDroite1.png">
+      <Name>pacmanDroite1</Name>
+    </Compile>
+    <Compile Include="pacmanGauche0.png">
+      <Name>pacmanGauche0</Name>
+    </Compile>
+    <Compile Include="pacmanGauche1.png">
+      <Name>pacmanGauche1</Name>
+    </Compile>
+    <Compile Include="pacmanHaut0.png">
+      <Name>pacmanHaut0</Name>
+    </Compile>
+    <Compile Include="pacmanHaut1.png">
+      <Name>pacmanHaut1</Name>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ghost_cyan.png">
+      <Name>ghost_cyan</Name>
+    </Compile>
+    <Compile Include="ghost_yellow.png">
+      <Name>ghost_yellow</Name>
+    </Compile>
+    <Compile Include="ghost_pink.png">
+      <Name>ghost_pink</Name>
+    </Compile>
+    <Compile Include="ghost_red.png">
+      <Name>ghost_red</Name>
+    </Compile>
+    <Compile Include="ghost_edible.png">
+      <Name>ghost_edible</Name>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="font.spritefont">
+      <Name>font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="gros_bean.png">
+      <Name>gros_bean</Name>
+    </Compile>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!--  To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
